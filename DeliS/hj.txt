@@ -1,0 +1,59 @@
+<!-- <div class="wrapper">
+    <section id="section1">
+      <a href="#section3" class="arrow_btn">❮</a>
+      <div class="item">
+        <a src="img/9F978F5B-614E-4A97-BD25-33F99B8868F7.JPEG"></a>
+      </div>
+      <div class="item">
+        <img src="img/bunreal.JPEG">
+      </div>
+      <div class="item">
+        <img src="img/6282D7F7-9876-432D-BE81-738750FCBEE0.JPEG">
+      </div>
+      <div class="item">
+        <img src="img/45CE7309-4932-438F-8323-163BCEFA9643.JPEG">
+      </div>
+      <div class="item">
+        <img src="img/5C63C614-767B-4B7C-B1F7-CB8F080CC5CA.JPEG">
+      </div>
+      <a href="#section2" class="arrow_btn">❯</a>  
+    </section>
+    <section id="section2">
+      <a href="#section1" class="arrow_btn">❮</a>
+      <div class="item">
+        <img src="img/88B8E586-A99B-438E-8EA2-05B17822BC3C.JPEG">
+      </div>
+      <div class="item">
+        <img src="img/sup.JPEG">
+      </div>
+      <div class="item">
+        <img src="img/6282D7F7-9876-432D-BE81-738750FCBEE0.JPEG">
+      </div>
+      <div class="item">
+        <img src="img/45CE7309-4932-438F-8323-163BCEFA9643.JPEG">
+      </div>
+      <div class="item">
+        <img src="img/5C63C614-767B-4B7C-B1F7-CB8F080CC5CA.JPEG">
+      </div>
+      <a href="#section3" class="arrow_btn">❯</a>  
+    </section>
+    <section id="section3">
+      <a href="#section2" class="arrow_btn">❮</a>
+      <div class="item">
+        <img src="img/bunreal.JPEG">
+      </div>
+      <div class="item">
+        <img src="img/sup.JPEG">
+      </div>
+      <div class="item">
+        <img src="img/bunreal.JPEG">
+      </div>
+      <div class="item">
+        <img src="img/45CE7309-4932-438F-8323-163BCEFA9643.JPEG">
+      </div>
+      <div class="item">
+        <img src="img/5C63C614-767B-4B7C-B1F7-CB8F080CC5CA.JPEG">
+      </div>
+      <a href="#section1" class="arrow_btn">❯</a>  
+    </section>
+  </div> -->

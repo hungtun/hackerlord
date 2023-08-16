@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="food,search" />
+    <meta name="description" content="Tìm địa điểm ăn uống"/>
+    <meta http-equiv="refresh" content="1800">
+    <link rel="icon" href="/logo/icon.png"/>
+    <title>DeliS | Delicious & Search</title>
+    <link rel="stylesheet" href="DeliS.css" />
+    <link rel="stylesheet" href="DeliS.js" />
+</head>
+<body>
+  <!-- header -->
+  <header>
+    <nav>
+        <div class="img-nav">
+          <a href="http://google.com">
+            <img src="/logo/logo.png" alt="" />
+          </a>
+        </div>
+        <div class="content-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Brand</a></li>
+                <li><a href="#">Promotion</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Order</a></li>
+            </ul>
+            
+        </div>
+        <!-- The Modal -->
+        <button id="cart">
+            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+            Your cart
+        </button>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Giỏ Hàng</h5>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="cart-row">
+                        <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                        <span class="cart-price cart-header cart-column">Giá</span>
+                        <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                    </div>
+                    <div class="cart-items">
+
+                    </div>
+                    <div class="cart-total">
+                        <strong class="cart-total-title">Tổng Cộng:</strong>
+                        <span class="cart-total-price">0VNĐ</span>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                    <button type="button" class="btn btn-primary order">Thanh Toán</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+  </header>
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+        <img src="cuccuc.jpg" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+        <img src="cuccuc.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+        <img src="cuccuc.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+    <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
+    </div>
+  <!-- content -->
+<section class="wrapper">
+    <div class="products">
+        <ul>
+            <li class="main-product">
+                <div class="img-product">
+                    <img class="img-prd"src="monngon.jpg"
+                        alt="">
+                </div>
+                <div class="content-product">
+                    <h3 class="content-product-h3">thanh thuy</h3>
+                    <div class="content-product-deltals">
+                        <div class="price">
+                            <span class="money">25000đ</span>
+                        </div>
+                        <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                    </div>
+                </div>
+            </li>
+            <li class="main-product">
+                <div class="img-product">
+                    <img class="img-prd"
+                        src="monngon.jpg"
+                        alt="">
+                </div>
+                <div class="content-product">
+                    <h3 class="content-product-h3">nhim</h3>
+                    <div class="content-product-deltals">
+                        <div class="price">
+                            <span class="money">1299000đ</span>
+                        </div>
+                        <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                    </div>
+                </div>
+            </li>
+            <li class="main-product">
+                <div class="img-product">
+                    <img class="img-prd" src="monngon.jpg" alt="">
+                </div>
+                <div class="content-product">
+                    <h3 class="content-product-h3">razel</h3>
+                    <div class="content-product-deltals">
+                        <div class="price">
+                            <span class="money">1599000đ</span>
+                        </div>
+                        <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                    </div>
+                </div>
+            </li>
+            <li class="main-product no-margin">
+                <div class="img-product">
+                    <img class="img-prd"
+                        src="monngon.jpg"
+                        alt="">
+                </div>
+                <div class="content-product">
+                    <h3 class="content-product-h3">thuy's thuy's idol</h3>
+                    <div class="content-product-deltals">
+                        <div class="price">
+                            <span class="money">89000đ</span>
+                        </div>
+                        <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                    </div>
+                </div>
+            </li>
+            <li class="main-product">
+                <div class="img-product">
+                    <img class="img-prd"
+                        src="monngon.jpg"
+                        alt="">
+                </div>
+                <div class="content-product">
+                    <h3 class="content-product-h3">vo iu
+                    </h3>
+                    <div class="content-product-deltals">
+                        <div class="price">
+                            <span class="money">2199000đ</span>
+                        </div>
+                        <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                    </div>
+                </div>
+            </li>
+            <li class="main-product">
+                <div class="img-product">
+                    <img class="img-prd"
+                        src="monngon.jpg"
+                        alt="">
+                </div>
+                <div class="content-product">
+                    <h3 class="content-product-h3">cuc cức</h3>
+                    <div class="content-product-deltals">
+                        <div class="price">
+                            <span class="money">115000đ</span>
+                        </div>
+                        <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                    </div>
+                </div>
+            </li>
+            <li class="main-product">
+                <div class="img-product">
+                    <img class="img-prd"
+                        src="monngon.jpg"
+                        alt="">
+                </div>
+                <div class="content-product">
+                    <h3 class="content-product-h3">dang iu</h3>
+                    <div class="content-product-deltals">
+                        <div class="price">
+                            <span class="money">1295000đ</span>
+                        </div>
+                        <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                    </div>
+                </div>
+            </li>
+            <li class="main-product no-margin">
+                <div class="img-product">
+                    <img class="img-prd"
+                        src="monngon.jpg"
+                        alt="">
+                </div>
+                <div class="content-product">
+                    <h3 class="content-product-h3">chu ech con</h3>
+                    <div class="content-product-deltals">
+                        <div class="price">
+                            <span class="money">85000đ</span>
+                        </div>
+                        <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- footer -->
+<footer>
+  <div class="footer-item">
+      <div class="img-footer">
+          <img src="img/logo.png" alt="" />
+      </div>
+      <div class="social-footer">
+          <li><a target="_blank" href="https://www.facebook.com/thanhlongdev">
+                  <i class="fa fa-facebook-square" aria-hidden="true"></i>
+              </a></li>
+          <li><a target="_blank" href="https://github.com/long1211">
+                  <i class="fa fa-github-square" aria-hidden="true"></i>
+              </a></li>
+
+      </div>
+  </div>
+</footer>
+
+  
+</body>
+</html>
